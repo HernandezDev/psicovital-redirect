@@ -3,7 +3,7 @@ const keyValues = window.location.search;
 const urlParams = new URLSearchParams(keyValues);
 
 // const _id = urlParams.get('_id');
-const recoveryURL = urlParams.get('recoveryURL');
+const appURL = urlParams.get('appURL');
 
 
-window.location.replace(`${recoveryURL}`);
+window.location.replace(`${appURL}`);
